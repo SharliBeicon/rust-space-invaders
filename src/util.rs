@@ -1,6 +1,6 @@
+use rusty_audio::Audio;
 use std::fs;
 use std::path::Path;
-use rusty_audio::Audio;
 
 /* Look for files into the sounds folder and loads them */
 pub fn load_audio() -> std::io::Result<Audio> {
